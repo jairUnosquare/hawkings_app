@@ -15,6 +15,8 @@
 		785562EE22DD55170086667F /* HawkingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785562ED22DD55170086667F /* HawkingsTests.swift */; };
 		785562F922DD55170086667F /* HawkingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785562F822DD55170086667F /* HawkingsUITests.swift */; };
 		7855630E22DD60990086667F /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7855630D22DD60990086667F /* RoundedView.swift */; };
+		78AF709222DD756800F5588D /* Availability.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78AF709122DD756800F5588D /* Availability.storyboard */; };
+		78AF709422DD757800F5588D /* Meetings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78AF709322DD757800F5588D /* Meetings.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		785562F822DD55170086667F /* HawkingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawkingsUITests.swift; sourceTree = "<group>"; };
 		785562FA22DD55170086667F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7855630D22DD60990086667F /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		78AF709122DD756800F5588D /* Availability.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Availability.storyboard; sourceTree = "<group>"; };
+		78AF709322DD757800F5588D /* Meetings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Meetings.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +159,9 @@
 			isa = PBXGroup;
 			children = (
 				785562DC22DD55120086667F /* Main.storyboard */,
+				78AF709122DD756800F5588D /* Availability.storyboard */,
 				785562E122DD55170086667F /* LaunchScreen.storyboard */,
+				78AF709322DD757800F5588D /* Meetings.storyboard */,
 			);
 			path = storyboards;
 			sourceTree = "<group>";
@@ -273,6 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				785562E322DD55170086667F /* LaunchScreen.storyboard in Resources */,
+				78AF709222DD756800F5588D /* Availability.storyboard in Resources */,
+				78AF709422DD757800F5588D /* Meetings.storyboard in Resources */,
 				785562E022DD55170086667F /* Assets.xcassets in Resources */,
 				785562DE22DD55120086667F /* Main.storyboard in Resources */,
 			);
